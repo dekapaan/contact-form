@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Dekapan Contact Form</title>
+    <link rel="stylesheet" href="glass.css" />
+  </head>
+  <body>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <div id="form">
+      <form action="https://formspree.io/f/mzbyzylq" method="POST">
+        <h1>Contact Form</h1>
+        <div class="contact-info">
+          <label for="name" class="contact-label">Your Name: </label>
+          <input
+            class="contact-input"
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Full Name"
+          />
+        </div>
+        <div class="contact-info">
+          <label class="contact-label" for="email"> Your email: </label>
+          <input
+            class="contact-input"
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="name@domain.com"
+          />
+        </div>
+        <div class="contact-info">
+          <label class="contact-label" for="number">Your Number: </label>
+          <input
+            class="contact-input"
+            type="tel"
+            name="number"
+            id="number"
+            placeholder="012 345 6789"
+          />
+        </div>
+        <div class="contact-info">
+          <label class="contact-label"> Your message: </label>
+          <textarea
+            class="contact-input"
+            name="message"
+            placeholder="Your message"
+          ></textarea>
+        </div>
+
+        <!-- your other form fields go here -->
+
+        <button class="contact-input" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
