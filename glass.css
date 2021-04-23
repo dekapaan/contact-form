@@ -52,6 +52,7 @@ h1 {
   border-radius: 4px;
   border: none;
   color: whitesmoke;
+  outline: none;
 }
 .contact-input ::placeholder {
   text-transform: uppercase;
